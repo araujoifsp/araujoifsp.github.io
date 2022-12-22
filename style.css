@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+main{
+    border-radius: 10px;
+    background-color: #ffffffde;
+    border: solid 2px #000;
+    width: 60%;
+    margin: 80px auto;
+}
+ul{
+    margin: 10px;
+    padding: 20px;
+}
