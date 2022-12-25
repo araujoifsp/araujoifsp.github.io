@@ -29,3 +29,7 @@ nav > a:hover{
     display: inline;
     height: 150px;
 }
+nav > a:link, nav > a:visited{
+    color: #F00;
+    text-decoration: none;
+}
