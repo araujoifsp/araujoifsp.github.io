@@ -22,14 +22,16 @@ nav{
 nav > a{
     padding: 10px;
 }
-nav > a:hover{
-    background-color: #8EC045;
-}
 #logo{
     display: inline;
     height: 150px;
 }
 nav > a:link, nav > a:visited{
-    color: #F00;
     text-decoration: none;
+}
+
+nav > a:hover{
+    transition: 500ms;
+    background-color: #8EC045;
+    color: #fff;
 }

@@ -1,12 +1,11 @@
 body{
-    background-image: url("https://img.freepik.com/fotos-premium/contacte-nos-atendimento-ao-cliente-pessoas-da-linha-direta-conecte-se-ligue-para-o-atendimento-ao-cliente-endereco-de-e-mail-chat-ao-vivo-internet-wifi_36325-3415.jpg?w=2000");
+    background-image: url("img/background-contatos.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 main{
     margin: 20vh auto;
-    padding: 20px;
     background-color: #fff;
     width: 30%;
     border-radius: 10px;
@@ -29,4 +28,11 @@ article{
 }
 .link:hover{
     text-decoration: underline;
+}
+.title{
+    padding: 10px;
+    font-size: 3.2em;
+    color: #fff;
+    background-color: #8ec045;
+    border-radius: 10px 10px 0 0;
 }
