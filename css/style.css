@@ -1,5 +1,5 @@
 body{
-    background-image: url("img/background-index.jpg");
+    background-image: url("../img/background-index.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -14,6 +14,14 @@ main{
 ul{
     margin: 10px;
     padding: 20px;
+}
+.modulo{
+    font-size: 1.6em;
+    list-style: none;
+}
+.materia{
+    font-size: 1.2em;
+    list-style: none;
 }
 .link:visited, .link:link{
     color: #000;

@@ -1,26 +1,25 @@
 body{
-    background-image: url("img/background-contatos.jpg");
+    background-image: url("../img/background-contatos.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
 main{
-    margin: 20vh auto;
+    margin: 30vh auto;
     background-color: #fff;
-    width: 30%;
+    width: 40vh;
     border-radius: 10px;
     text-align: center;
 }
-p{
-    font-size: 1.5em;
+article{
+    padding: 30px 40px 30px 40px;
 }
 article > h2{
     font-size: 3em;
-    padding-bottom: 15px;
+    padding: 15px;
 }
-article{
-    padding-top: 30px;
-    padding-bottom: 30px;
+article > p{
+    font-size: 1.3em;
 }
 .link:visited, .link:link{
     color: #747474;
@@ -30,7 +29,7 @@ article{
     text-decoration: underline;
 }
 .title{
-    padding: 10px;
+    padding: 15px;
     font-size: 3.2em;
     color: #fff;
     background-color: #8ec045;
