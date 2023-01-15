@@ -8,12 +8,16 @@ main{
     border-radius: 10px;
     background-color: #ffffffde;
     border: solid 2px #000;
-    width: 60%;
+    width: 50vmax;
     margin: 80px auto;
 }
 ul{
     margin: 10px;
     padding: 20px;
+}
+.ano{
+    display: inline-block;
+    padding-right: 30px;
 }
 .modulo{
     font-size: 1.6em;
